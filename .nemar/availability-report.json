@@ -1,0 +1,349 @@
+{
+  "dataset_id": "on005571",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:02:51.489Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds005571"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 245,
+    "files_declared": 300,
+    "bytes_present": 67391486847,
+    "bytes_declared": 67959730794,
+    "pct_bytes": 0.991638519747489
+  },
+  "missing": [
+    {
+      "path": "sub-01/anat/sub-01_T1w.nii.gz",
+      "key": "SHA256E-s11922752--d4e8ae29a1d7c0f2b324f321d0849e18036b4ed8c2579d84cf4b5ae873be2f39.nii.gz",
+      "declared_size": 11922752,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-01/anat/sub-01_T2w.nii.gz",
+      "key": "SHA256E-s9756089--cf38026a9db047c9cc1cc6485071fba5a0a27d7ecd2c001baa589b638fafcd22.nii.gz",
+      "declared_size": 9756089,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-02/anat/sub-02_T1w.nii.gz",
+      "key": "SHA256E-s11446181--48e1e302032cb7b40b0ba55b068a8a3571fd77d30e412e0cd134f599ffec327d.nii.gz",
+      "declared_size": 11446181,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-02/anat/sub-02_T2w.nii.gz",
+      "key": "SHA256E-s8774657--eaaab186ecc7154e8364de459a4bac639b88a1ae84464049334e87d94ffa0da4.nii.gz",
+      "declared_size": 8774657,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-03/anat/sub-03_T1w.nii.gz",
+      "key": "SHA256E-s11066895--c9947959fb398266a48cca60b6886a804a3c0d05d9ec8695fdc0d90a8e1a8bf7.nii.gz",
+      "declared_size": 11066895,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-04/anat/sub-04_T1w.nii.gz",
+      "key": "SHA256E-s11729140--2991c5c8ba3bc0af2fcf80fb2485d5bc0069b858a1624f6fbd59b4a640908803.nii.gz",
+      "declared_size": 11729140,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-04/anat/sub-04_T2w.nii.gz",
+      "key": "SHA256E-s9577631--2cb8a2493b467b3998ce88ddae3a766a36a0995b51455dea0a8965242b2dfe9c.nii.gz",
+      "declared_size": 9577631,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-05/anat/sub-05_T1w.nii.gz",
+      "key": "SHA256E-s10632961--7229e672e88809954176f91f0723039746bf8500e57c4fe5057f42d3d799c177.nii.gz",
+      "declared_size": 10632961,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-05/anat/sub-05_T2w.nii.gz",
+      "key": "SHA256E-s8606166--067022f7cbfbf5c8a00c67cae6d13453c14706d2ab8176ebbd5f79fb2cb73a10.nii.gz",
+      "declared_size": 8606166,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-06/anat/sub-06_T1w.nii.gz",
+      "key": "SHA256E-s11520496--d4445c024d5e67f353204848d7ffca8e3b470fcaaf6d69e4326003cf12001876.nii.gz",
+      "declared_size": 11520496,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-06/anat/sub-06_T2w.nii.gz",
+      "key": "SHA256E-s9506197--54f7d72e1693115950632e0ad2b60852f8727576d2b040030a5c05d01f490c1a.nii.gz",
+      "declared_size": 9506197,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-07/anat/sub-07_T1w.nii.gz",
+      "key": "SHA256E-s10794824--ed26f347b88f20b87f2d4597df5450abd8c6c2044400811cc96a16289fe8b1cf.nii.gz",
+      "declared_size": 10794824,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-07/anat/sub-07_T2w.nii.gz",
+      "key": "SHA256E-s8580869--9c6b0fa71652dfc34e6566c3da1cb03745da14a04f9424139d8ae05e527c7ec5.nii.gz",
+      "declared_size": 8580869,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-08/anat/sub-08_T1w.nii.gz",
+      "key": "SHA256E-s11546617--56bf66d25fdb985cc8c180fec7348f5857e3384b26a2a07039501c81e4cc0572.nii.gz",
+      "declared_size": 11546617,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-08/anat/sub-08_T2w.nii.gz",
+      "key": "SHA256E-s9564046--2aa884282fe3655ef77ba48805578c6935a63387ed4d0c100e7756cf7869f1c2.nii.gz",
+      "declared_size": 9564046,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-09/anat/sub-09_T1w.nii.gz",
+      "key": "SHA256E-s11070983--eb19341ae5a73db614d598d2340a177c36eb7d9b64228a50b7e30e048746519d.nii.gz",
+      "declared_size": 11070983,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-09/anat/sub-09_T2w.nii.gz",
+      "key": "SHA256E-s9232813--2667ed49b413f403149020ea6eea82d5abf68164fb3ba3e8de97c489f1fe993d.nii.gz",
+      "declared_size": 9232813,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-10/anat/sub-10_T1w.nii.gz",
+      "key": "SHA256E-s13148270--4c0abf49a1ba1a51f6a04b200caaee255e4f2daf6952a1a90300c41c7cf5468b.nii.gz",
+      "declared_size": 13148270,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-10/anat/sub-10_T2w.nii.gz",
+      "key": "SHA256E-s9141573--e3691209fbcf521cf45c47cf2be2bff2ac70c405fe621e82a657448064a4f1ee.nii.gz",
+      "declared_size": 9141573,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-11/anat/sub-11_T1w.nii.gz",
+      "key": "SHA256E-s10862427--28ee5263f13b8a0d39e88ed6161b32d8ceebc990211b6126f1b1d9677898d14b.nii.gz",
+      "declared_size": 10862427,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-11/anat/sub-11_T2w.nii.gz",
+      "key": "SHA256E-s8471925--20a7c345fec8d1b9df5828460d77f4cf8308b27e9abc003c0d8015c69755e0bb.nii.gz",
+      "declared_size": 8471925,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-12/anat/sub-12_T1w.nii.gz",
+      "key": "SHA256E-s11921473--7f32ddddd7cbb190bc09c6640991e5c3710f8bac6c60b4632e82667989f3ef89.nii.gz",
+      "declared_size": 11921473,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-12/anat/sub-12_T2w.nii.gz",
+      "key": "SHA256E-s9794387--d6528e454035a35d4dc92ae6e03a9ce6e7e491dfdf25cc4be0e8556cf7ca5aff.nii.gz",
+      "declared_size": 9794387,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-13/anat/sub-13_T1w.nii.gz",
+      "key": "SHA256E-s11342198--6a85913cc2f6cb568e553074f982c162d46d56b36d9469b7fcf7d79e1a4afef4.nii.gz",
+      "declared_size": 11342198,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-13/anat/sub-13_T2w.nii.gz",
+      "key": "SHA256E-s9190788--1a0e55a3d564f87dd96718fe33606ba08a675955540f553b09fc1572cf4a26f1.nii.gz",
+      "declared_size": 9190788,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-14/anat/sub-14_T1w.nii.gz",
+      "key": "SHA256E-s12154800--4c904b133b479da70de36b1d2b67d5fec94868972de45110c044434382ec6982.nii.gz",
+      "declared_size": 12154800,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-14/anat/sub-14_T2w.nii.gz",
+      "key": "SHA256E-s10109692--1d25b0415310170b9a337779972f631688566a05dc0f3168074efceff6a74b57.nii.gz",
+      "declared_size": 10109692,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-15/anat/sub-15_T1w.nii.gz",
+      "key": "SHA256E-s10874250--0dd45c82e70de1d9d9a6f886fb5789dcc4345fd9bc32f9ffddb07d851e99961c.nii.gz",
+      "declared_size": 10874250,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-15/anat/sub-15_T2w.nii.gz",
+      "key": "SHA256E-s8653402--a47f211258c1253c805c20865b66a9867ffa30594bef1c858359d0d0eb492c07.nii.gz",
+      "declared_size": 8653402,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-16/anat/sub-16_T1w.nii.gz",
+      "key": "SHA256E-s11166042--4a3fc1d29fce259ff4a79163284ec23d5a22db903e157b7898865d44584b7628.nii.gz",
+      "declared_size": 11166042,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-16/anat/sub-16_T2w.nii.gz",
+      "key": "SHA256E-s8984100--0f5bdae4623f8e771636cdaab25cc031a17eeb489078e8ed8e1b7cb57387a3c0.nii.gz",
+      "declared_size": 8984100,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-17/anat/sub-17_T1w.nii.gz",
+      "key": "SHA256E-s11257305--670b30d42e659a2b112dbab491984b66bd167f735ffdb8ed8bb24afcb2dad76f.nii.gz",
+      "declared_size": 11257305,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-18/anat/sub-18_T1w.nii.gz",
+      "key": "SHA256E-s11932497--e7b0a2376b0ebd4cd9b1075d92aed0c4dba2ad665810f42a5c8b52e4eb5cad89.nii.gz",
+      "declared_size": 11932497,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-18/anat/sub-18_T2w.nii.gz",
+      "key": "SHA256E-s9431091--17b9ba05f259f0b2f6ad3703dee7990c2887d41fd365523aa2a10434496a5eaf.nii.gz",
+      "declared_size": 9431091,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-19/anat/sub-19_T1w.nii.gz",
+      "key": "SHA256E-s10880161--c274b6f6170b465e4b55371a60292217ace45ab79fb6784eb3bfc4e874e63fa0.nii.gz",
+      "declared_size": 10880161,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-19/anat/sub-19_T2w.nii.gz",
+      "key": "SHA256E-s8901110--a152d4d0f74727c820dc08fa07cd5d28852e07b2273b80ea4dff4c8017793a29.nii.gz",
+      "declared_size": 8901110,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-20/anat/sub-20_T1w.nii.gz",
+      "key": "SHA256E-s10656284--4e830d8b6c9b691704c23c03a832093a4ef027ec2661217161d8e5f696758a8e.nii.gz",
+      "declared_size": 10656284,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-20/anat/sub-20_T2w.nii.gz",
+      "key": "SHA256E-s8442029--3bae4a2684e1c7ed98b62409dd8cd440699c1b12f91b9df90b7dff653f2d1b56.nii.gz",
+      "declared_size": 8442029,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-21/anat/sub-21_T1w.nii.gz",
+      "key": "SHA256E-s9553381--903903876ccfa2dc3f210851c4a8efcddf4eb3e8e4620f4ca3457e9ba141e497.nii.gz",
+      "declared_size": 9553381,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-21/anat/sub-21_T2w.nii.gz",
+      "key": "SHA256E-s7252112--bf27d8eb1bf1f0270a4e068e40eabb04bf3484dc2be45bd98df5bc060d28e6dc.nii.gz",
+      "declared_size": 7252112,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-22/anat/sub-22_T1w.nii.gz",
+      "key": "SHA256E-s10470798--f6f72649b9ce5f41bbfdd1dc1135a9622741ff56393d121a8c02e4a1621d1aad.nii.gz",
+      "declared_size": 10470798,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-22/anat/sub-22_T2w.nii.gz",
+      "key": "SHA256E-s8459149--8df29f2440881ae5eee2c7c753f3203ac519cd1c2179d4dbe7ac893ca243111d.nii.gz",
+      "declared_size": 8459149,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-23/anat/sub-23_T1w.nii.gz",
+      "key": "SHA256E-s12281604--d706f95e76fa851d9e081fb7b43f83e6054ebc108d97c44ba27b938172db0e6b.nii.gz",
+      "declared_size": 12281604,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-23/anat/sub-23_T2w.nii.gz",
+      "key": "SHA256E-s10353420--025e931899e5fa411b33cc370d3a13296f295a8b58a62a138481fd2554b5cc21.nii.gz",
+      "declared_size": 10353420,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-24/anat/sub-24_T1w.nii.gz",
+      "key": "SHA256E-s11863720--71eb4643d040f41054ffdb85ab825d72af8f98d39f73db8e2a6117f46dc638e8.nii.gz",
+      "declared_size": 11863720,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-24/anat/sub-24_T2w.nii.gz",
+      "key": "SHA256E-s9862661--a8ccfbaac9d30ff49026c96b8aec60df8811c967c256fe663eab2930ee00e329.nii.gz",
+      "declared_size": 9862661,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-25/anat/sub-25_T1w.nii.gz",
+      "key": "SHA256E-s11227687--e0f0da1daa76ded03f515d7c800e9f0ea2b6e11fa10b835aeccf8674f56c8b6a.nii.gz",
+      "declared_size": 11227687,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-25/anat/sub-25_T2w.nii.gz",
+      "key": "SHA256E-s9049327--a3b5bd7c09f70d0816649ed089cd1add4570533f32611ce3774a6c996db0326d.nii.gz",
+      "declared_size": 9049327,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-26/anat/sub-26_T1w.nii.gz",
+      "key": "SHA256E-s12731333--2b05839a0962565c55ff15a0bd1c3a2055a4979f6aa3b9f04954e76b1cd99f0f.nii.gz",
+      "declared_size": 12731333,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-26/anat/sub-26_T2w.nii.gz",
+      "key": "SHA256E-s10008029--6337506457ca7f7a388f3aed83fbf2a3b1b01e8f9b162040a41e4935be555175.nii.gz",
+      "declared_size": 10008029,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-27/anat/sub-27_T1w.nii.gz",
+      "key": "SHA256E-s9580481--61d6550d35bbc76e02705a5bb74f1bf53e37a66b37d53c67422c6cae312573c9.nii.gz",
+      "declared_size": 9580481,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-27/anat/sub-27_T2w.nii.gz",
+      "key": "SHA256E-s7145429--60fbfa630da4a4e7dcebf79cf443ffe1e13fbc1683ebef809a5c8da70de8d3d8.nii.gz",
+      "declared_size": 7145429,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-28/anat/sub-28_T1w.nii.gz",
+      "key": "SHA256E-s11724933--9dac9680bda4587f31036fdd82b52d70baee363b6b1b11e141eb459908b6a6f6.nii.gz",
+      "declared_size": 11724933,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-28/anat/sub-28_T2w.nii.gz",
+      "key": "SHA256E-s9709826--acf81709f31b56c8423e7c1a90f10116960f05eb92528c618da12436bbb35793.nii.gz",
+      "declared_size": 9709826,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-29/anat/sub-29_T1w.nii.gz",
+      "key": "SHA256E-s11352122--17c812167291c026ab916c5dd1bf601e66e3bacd9c14010e442e6259f29c3811.nii.gz",
+      "declared_size": 11352122,
+      "reason": "zero_byte"
+    }
+  ]
+}
